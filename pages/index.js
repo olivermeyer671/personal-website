@@ -25,7 +25,7 @@ const Home = () => (
         <Box flexGrow={1}>
           <Image
           display="inline-block"
-          src="/images/algonquin.jpg"
+          src="/images/algonquin.JPG"
           />
         </Box>
       </Box>  
