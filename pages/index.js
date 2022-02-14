@@ -21,10 +21,14 @@ import Section from '../components/section'
 const Home = () => (
   <Layout>
     <Container>
-    <Image
-      display="inline-block"
-      src="/images/algonquin.jpg"
-    />
+      <Box display={{ md: 'flex' }}>
+        <Box flexGrow={1}>
+          <Image
+          display="inline-block"
+          src="/images/algonquin.jpg"
+          />
+        </Box>
+      </Box>  
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
@@ -59,7 +63,7 @@ const Home = () => (
         <Paragraph>
           Hello! I am a Victoria-based software engineering student. When I'm not on a computer, you can find me hiking and kayaking around Vancouver Island, walking my dog (daisy), or sleeping through my alarm.
           Here is a link to my {''}
-          <NextLink href="/public/resume.pdf">
+          <NextLink href="/resume.pdf">
             <Link>Resume</Link>
           </NextLink>
           .
