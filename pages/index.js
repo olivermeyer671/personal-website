@@ -61,7 +61,7 @@ const Home = () => (
         </Heading>
         
         <Paragraph>
-          Hello! I am a Victoria-based software engineering student. When I'm not on a computer, you can find me hiking and kayaking around Vancouver Island, walking my dog (daisy), or sleeping through my alarm.
+          Hello! I am a Victoria-based software engineering student. When I'm not learning about software development, you can find me hiking, kayaking, or walking my dog (daisy).
           Here is a link to my {''}
           <NextLink href="/resume.pdf">
             <Link>Resume</Link>
